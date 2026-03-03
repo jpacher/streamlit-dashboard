@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/YlfKWlZ5)
 
-# Equity and Efficiency in Municipal Service Delivery  
-## Evidence from the 311 System in Chicago
+# Service request and Delivery: 
+## Evidence from 311 system in Chicago
 
 **PPHA 30538 – Data Analytics and Visualization for Public Policy**  
 Final Project – March 2026  
