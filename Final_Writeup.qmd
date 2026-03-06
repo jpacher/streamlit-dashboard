@@ -344,24 +344,24 @@ if "created_date" in raw_311.columns:
 elif "creation_date" in raw_311.columns:
     created_col = "creation_date"
 else:
-    raise ValueError("No encontré columna de fecha de creación en 311")
+    raise ValueError("Did no find creation date")
 
 if "completion_date" in raw_311.columns:
     done_col = "completion_date"
 elif "closed_date" in raw_311.columns:
     done_col = "closed_date"
 else:
-    raise ValueError("No encontré columna de fecha de cierre/completion en 311")
+    raise ValueError("Did no find completion date")
 
 if "community_area" not in raw_311.columns:
-    raise ValueError("No encontré columna 'community_area' en 311")
+    raise ValueError("Did not find 'community_area' in 311")
 
 if "sr_type" in raw_311.columns:
     service_col = "sr_type"
 elif "service_request_type" in raw_311.columns:
     service_col = "service_request_type"
 else:
-    raise ValueError("No encontré columna de tipo de servicio en 311")
+    raise ValueError("Did not find service type in 311")
 
 fmt = "%m/%d/%Y %I:%M:%S %p"
 raw_311["created_at"] = pd.to_datetime(raw_311[created_col], format=fmt, errors="coerce")
